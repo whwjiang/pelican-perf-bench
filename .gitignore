@@ -1,0 +1,4 @@
+perf-bench
+pelican-perf-bench
+*.ndjson
+__pycache__/
