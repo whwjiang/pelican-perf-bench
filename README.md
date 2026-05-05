@@ -105,11 +105,6 @@ One JSON object per cell, for example:
 - Very large objects such as `1GB` are best treated as opt-in sizes with a longer
   `--duration` so each cell captures multiple transfers instead of one long upload.
 
-## Staging An Origin
-
-[perf-bench/scripts/start-posixv2-origin.sh](/workspaces/pelican/perf-bench/scripts/start-posixv2-origin.sh)
-starts a local origin and prints the corresponding benchmark arguments.
-
 ## Notes
 
 - This benchmark measures the end-to-end Pelican client path, including discovery
